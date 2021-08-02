@@ -36,7 +36,7 @@ python -m smtpd -n -c DebuggingServer localhost:1025
 
 ### Работу сайта можно посмотреть по адресу:
 
-
+https://my-bboard.herokuapp.com/
 
 ### Авторы
 
