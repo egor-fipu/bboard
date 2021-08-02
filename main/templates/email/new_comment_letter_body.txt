@@ -1,0 +1,12 @@
+Уважаемый пользователь {{ comment.bb.author.username }}!
+
+К Вышему объявлению {{ comment.bb.title }} размещен новый комментарий:
+
+{{ comment.content }}
+
+Ссылка на объявление:
+{{ host }}{% url 'main:detail' rubric_pk=comment.bb.rubric.pk pk=comment.bb.pk %}
+
+До свидания!
+
+С уважением администрация сайта "Доска объявлений".
